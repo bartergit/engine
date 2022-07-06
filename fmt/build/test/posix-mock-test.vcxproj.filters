@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\posix-mock-test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\src\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\test-main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\gtest-extra.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\gtest-extra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D60EE94E-9C79-37F5-AB82-A1D099A2999B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{58E25D00-C697-3BA8-B172-22C8295402F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

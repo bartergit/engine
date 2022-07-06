@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/eaf08111ebd59337cb2baadf7d9f4b85/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/8faa2df96d504b4832a66a61142ede0e/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/225c423a686ac14634fb7e79945ebe61/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/225c423a686ac14634fb7e79945ebe61/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/225c423a686ac14634fb7e79945ebe61/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/225c423a686ac14634fb7e79945ebe61/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/225c423a686ac14634fb7e79945ebe61/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/225c423a686ac14634fb7e79945ebe61/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/225c423a686ac14634fb7e79945ebe61/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/225c423a686ac14634fb7e79945ebe61/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

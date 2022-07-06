@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\ranges-test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\ranges-odr-test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{58E25D00-C697-3BA8-B172-22C8295402F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+# ninja log v5
+11	2241	6779077481280540	CMakeFiles/engine.dir/main.cpp.obj	196d57d9ae2e475
+4	1494	6779078962396509	build.ninja	12fb29a82529269a
+24	7493	6779032775409686	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d734b11ed28649af
+18	3321	6779024838492126	fmt/CMakeFiles/fmt.dir/src/os.cc.obj	79ba8ffeb9fb8bc6
+21	3359	6779024838879932	fmt/CMakeFiles/fmt.dir/src/format.cc.obj	f9a36c35f1dfc1bc
+14	515	6779024893203562	fmt/libfmtd.a	3461bc1b70f3a9d3
+671	1199	6779054101836292	engine.exe	c6530196dfe955cd
+29	2124	6779032721914546	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	f3650ff7bcdd9552
+7505	9398	6779032794586682	lib/libgtestd.a	8eab0ab1c69ca49d
+9398	9489	6779032795519199	lib/libgtest_maind.a	80ae0a1a17cbc129
+1895	4567	6779036332697294	engine[1]_tests.cmake	c7849e8a702c4ad3
+1895	4567	6779036332697294	C:/Code/CLion/engine/cmake-build-debug/engine[1]_tests.cmake	c7849e8a702c4ad3

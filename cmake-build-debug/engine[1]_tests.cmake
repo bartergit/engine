@@ -1,0 +1,5 @@
+add_test( HelloTest.BasicAssertions C:/Code/CLion/engine/cmake-build-debug/engine.exe [==[--gtest_filter=HelloTest.BasicAssertions]==] --gtest_also_run_disabled_tests)
+set_tests_properties( HelloTest.BasicAssertions PROPERTIES WORKING_DIRECTORY C:/Code/CLion/engine/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( HelloTest2.BasicAssertionsdesc C:/Code/CLion/engine/cmake-build-debug/engine.exe [==[--gtest_filter=HelloTest2.BasicAssertionsdesc]==] --gtest_also_run_disabled_tests)
+set_tests_properties( HelloTest2.BasicAssertionsdesc PROPERTIES WORKING_DIRECTORY C:/Code/CLion/engine/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( engine_TESTS HelloTest.BasicAssertions HelloTest2.BasicAssertionsdesc)

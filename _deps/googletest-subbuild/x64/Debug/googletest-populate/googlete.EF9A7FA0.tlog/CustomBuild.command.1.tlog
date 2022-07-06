@@ -1,0 +1,164 @@
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\225C423A686AC14634FB7E79945EBE61\GOOGLETEST-POPULATE-MKDIR.RULE
+setlocal
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Code/CLion/engine/_deps/googletest-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Code/CLion/engine/_deps/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\225C423A686AC14634FB7E79945EBE61\GOOGLETEST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Code\CLion\engine\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -P C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -P C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -P C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\225C423A686AC14634FB7E79945EBE61\GOOGLETEST-POPULATE-UPDATE.RULE
+setlocal
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\225C423A686AC14634FB7E79945EBE61\GOOGLETEST-POPULATE-PATCH.RULE
+setlocal
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\225C423A686AC14634FB7E79945EBE61\GOOGLETEST-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Code\CLion\engine\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\225C423A686AC14634FB7E79945EBE61\GOOGLETEST-POPULATE-BUILD.RULE
+setlocal
+cd C:\Code\CLion\engine\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\225C423A686AC14634FB7E79945EBE61\GOOGLETEST-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Code\CLion\engine\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\225C423A686AC14634FB7E79945EBE61\GOOGLETEST-POPULATE-TEST.RULE
+setlocal
+cd C:\Code\CLion\engine\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\8FAA2DF96D504B4832A66A61142EDE0E\GOOGLETEST-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Code/CLion/engine/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\EAF08111EBD59337CB2BAADF7D9F4B85\GOOGLETEST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CODE\CLION\ENGINE\_DEPS\GOOGLETEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -SC:/Code/CLion/engine/_deps/googletest-subbuild -BC:/Code/CLion/engine/_deps/googletest-subbuild --check-stamp-file C:/Code/CLion/engine/_deps/googletest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

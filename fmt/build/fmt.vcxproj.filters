@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\src\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\src\os.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\args.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\chrono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\compile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\format-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\locale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\printf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\ranges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\include\fmt\xchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\README.rst" />
+    <None Include="C:\Code\CLion\engine\fmt-8.1.1\fmt-8.1.1\ChangeLog.rst" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D60EE94E-9C79-37F5-AB82-A1D099A2999B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{58E25D00-C697-3BA8-B172-22C8295402F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

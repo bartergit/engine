@@ -1,0 +1,5 @@
+if(EXISTS "C:/Code/CLion/engine/cmake-build-debug/engine[1]_tests.cmake")
+  include("C:/Code/CLion/engine/cmake-build-debug/engine[1]_tests.cmake")
+else()
+  add_test(engine_NOT_BUILT engine_NOT_BUILT)
+endif()

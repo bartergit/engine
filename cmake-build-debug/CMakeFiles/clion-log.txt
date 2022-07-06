@@ -1,0 +1,9 @@
+"C:\Apps\CLion 2022.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Apps/CLion 2022.1.3/bin/ninja/win/ninja.exe" -G Ninja -S C:\Code\CLion\engine -B C:\Code\CLion\engine\cmake-build-debug
+-- Module support is disabled.
+-- Version: 8.1.1
+-- Build type: Debug
+-- CXX_STANDARD: 23
+-- Required features: cxx_variadic_templates
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Code/CLion/engine/cmake-build-debug
